@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-10T08:28:23.761Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="FqsnrVwPr2yqZ9G8iu7t" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-10T08:29:29.808Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="EJ1rlHVXcixRTC5fmyoz" version="24.2.2" type="github">
   <diagram name="第 1 页" id="azeuemCkckMYmFKfc3Pb">
     <mxGraphModel dx="1434" dy="1915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,13 +49,13 @@
         <mxCell id="LAxkSUaHvumqdf8n7f9d-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="LAxkSUaHvumqdf8n7f9d-26" source="LAxkSUaHvumqdf8n7f9d-27" target="LAxkSUaHvumqdf8n7f9d-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LAxkSUaHvumqdf8n7f9d-27" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;定义事件&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="LAxkSUaHvumqdf8n7f9d-26">
+        <mxCell id="LAxkSUaHvumqdf8n7f9d-27" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;绑定事件&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="LAxkSUaHvumqdf8n7f9d-26">
           <mxGeometry x="70" y="20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LAxkSUaHvumqdf8n7f9d-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="LAxkSUaHvumqdf8n7f9d-26" source="LAxkSUaHvumqdf8n7f9d-28" target="LAxkSUaHvumqdf8n7f9d-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LAxkSUaHvumqdf8n7f9d-28" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;触发阶段&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="LAxkSUaHvumqdf8n7f9d-26">
+        <mxCell id="LAxkSUaHvumqdf8n7f9d-28" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;绑定阶段&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="LAxkSUaHvumqdf8n7f9d-26">
           <mxGeometry x="260" y="20" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LAxkSUaHvumqdf8n7f9d-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="LAxkSUaHvumqdf8n7f9d-26" source="LAxkSUaHvumqdf8n7f9d-31" target="LAxkSUaHvumqdf8n7f9d-33">
