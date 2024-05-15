@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-15T10:46:10.780Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="plz-ugxU7q3SKPdIuPub" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-15T11:00:56.763Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="c54uj7Mvb7ZFsw2FxT_t" version="24.4.0" type="github">
   <diagram name="第 1 页" id="bvI0bnbR4m2EuvqrLbbR">
     <mxGraphModel dx="2087" dy="1448" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,11 +43,8 @@
         <mxCell id="H6O30uMF4Tg4BtCk4nz9-12" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;非见费保单事件&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="318" y="15" width="171" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="H6O30uMF4Tg4BtCk4nz9-47" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="H6O30uMF4Tg4BtCk4nz9-13" target="H6O30uMF4Tg4BtCk4nz9-46">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="H6O30uMF4Tg4BtCk4nz9-13" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;转保单事件&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="325" y="157" width="171" height="60" as="geometry" />
+          <mxGeometry x="329" y="164" width="171" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H6O30uMF4Tg4BtCk4nz9-14" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;发起人核事件&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="790" y="-156" width="171" height="60" as="geometry" />
@@ -116,7 +113,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H6O30uMF4Tg4BtCk4nz9-46" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;非见费送收付事件&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="325" y="284" width="175" height="60" as="geometry" />
+          <mxGeometry x="329" y="279" width="175" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H6O30uMF4Tg4BtCk4nz9-48" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;非见费送收付事件&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="103.87" y="157" width="165.25" height="60" as="geometry" />
@@ -125,16 +122,21 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H6O30uMF4Tg4BtCk4nz9-50" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;送周边&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="328" y="394" width="175" height="60" as="geometry" />
+          <mxGeometry x="332" y="389" width="175" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H6O30uMF4Tg4BtCk4nz9-53" value="发送实收数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="524" y="308" width="131" height="30" as="geometry" />
+          <mxGeometry x="528" y="303" width="131" height="30" as="geometry" />
         </mxCell>
         <mxCell id="H6O30uMF4Tg4BtCk4nz9-54" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;页面消息推送&lt;/font&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="328" y="512" width="181.5" height="60" as="geometry" />
+          <mxGeometry x="332" y="507" width="181.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="H6O30uMF4Tg4BtCk4nz9-56" value="给柜面发送通知&lt;div&gt;生成保单号&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="540" y="527" width="131" height="30" as="geometry" />
+          <mxGeometry x="544" y="522" width="131" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6O30uMF4Tg4BtCk4nz9-59" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="H6O30uMF4Tg4BtCk4nz9-13" target="H6O30uMF4Tg4BtCk4nz9-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415.0128205128208" y="328" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
