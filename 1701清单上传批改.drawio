@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-20T09:18:34.479Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="J0qqnf_fUXT6B549bHq2" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-20T09:55:09.181Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="TPI43aufqtQjZBRRVcfs" version="24.4.4" type="github">
   <diagram name="第 1 页" id="Fu0R1MFzWa6YzTho8a_D">
     <mxGraphModel dx="1434" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -105,7 +105,7 @@
         <mxCell id="GyTgs1EJwbVY7Si8vsgn-32" value="ListenerInstance&lt;br&gt;开始导入逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1020" y="1460" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GyTgs1EJwbVY7Si8vsgn-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GyTgs1EJwbVY7Si8vsgn-33" target="GyTgs1EJwbVY7Si8vsgn-43">
+        <mxCell id="GyTgs1EJwbVY7Si8vsgn-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GyTgs1EJwbVY7Si8vsgn-33" target="GyTgs1EJwbVY7Si8vsgn-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GyTgs1EJwbVY7Si8vsgn-33" value="利用json序列化，&lt;div&gt;将cName转为prpcopyNametemp&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -130,32 +130,74 @@
         <mxCell id="GyTgs1EJwbVY7Si8vsgn-39" value="删除临时表CPtemp、copytemp" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="685" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GyTgs1EJwbVY7Si8vsgn-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GyTgs1EJwbVY7Si8vsgn-43" target="GyTgs1EJwbVY7Si8vsgn-45">
+        <mxCell id="GyTgs1EJwbVY7Si8vsgn-43" value="这条导入错误" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1745" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GyTgs1EJwbVY7Si8vsgn-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GyTgs1EJwbVY7Si8vsgn-45" target="GyTgs1EJwbVY7Si8vsgn-69">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="GyTgs1EJwbVY7Si8vsgn-43" value="循环查询prppnametemp的数据在&lt;div&gt;prpcopynametemp中是否存在&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="1750" width="190" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="GyTgs1EJwbVY7Si8vsgn-50" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GyTgs1EJwbVY7Si8vsgn-45" target="GyTgs1EJwbVY7Si8vsgn-49">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="GyTgs1EJwbVY7Si8vsgn-45" value="将匹配上的P表的新值更新旧值&lt;div&gt;打上U的标识&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="1890" width="190" height="60" as="geometry" />
+        <mxCell id="GyTgs1EJwbVY7Si8vsgn-45" value="prpppnameTemp的数据转成prpcopyNameTemp并打上U标识" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1880" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GyTgs1EJwbVY7Si8vsgn-47" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="951" y="1770" width="20" height="120" as="geometry" />
+          <mxGeometry x="916" y="1780" width="20" height="120" as="geometry" />
         </mxCell>
         <mxCell id="GyTgs1EJwbVY7Si8vsgn-48" value="打上U标识" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="990" y="1808" width="80" height="30" as="geometry" />
+          <mxGeometry x="965" y="1825" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="GyTgs1EJwbVY7Si8vsgn-49" value="将匹配上的P表的新值更新旧值&lt;div&gt;打上U的标识&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="650" y="2030" width="190" height="60" as="geometry" />
+        <mxCell id="GyTgs1EJwbVY7Si8vsgn-49" value="这条导入错误" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="2025" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GyTgs1EJwbVY7Si8vsgn-51" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="910" y="2060" width="20" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="GyTgs1EJwbVY7Si8vsgn-54" value="打上I标识" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="935" y="2128" width="70" height="30" as="geometry" />
+        <mxCell id="GyTgs1EJwbVY7Si8vsgn-54" value="打上D标识" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="930" y="2128" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GyTgs1EJwbVY7Si8vsgn-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GyTgs1EJwbVY7Si8vsgn-62" target="GyTgs1EJwbVY7Si8vsgn-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GyTgs1EJwbVY7Si8vsgn-62" value="prpppnameTemp的数据转成prpcopyNameTemp并打上D标识" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="2170" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GyTgs1EJwbVY7Si8vsgn-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GyTgs1EJwbVY7Si8vsgn-64" target="GyTgs1EJwbVY7Si8vsgn-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GyTgs1EJwbVY7Si8vsgn-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GyTgs1EJwbVY7Si8vsgn-64" target="GyTgs1EJwbVY7Si8vsgn-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GyTgs1EJwbVY7Si8vsgn-64" value="查询prppnametemp的数据在&lt;div&gt;prpcopynametemp中是否存在&lt;/div&gt;" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1730" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GyTgs1EJwbVY7Si8vsgn-71" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GyTgs1EJwbVY7Si8vsgn-69" target="GyTgs1EJwbVY7Si8vsgn-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GyTgs1EJwbVY7Si8vsgn-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GyTgs1EJwbVY7Si8vsgn-69" target="GyTgs1EJwbVY7Si8vsgn-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GyTgs1EJwbVY7Si8vsgn-69" value="查询prppnametemp的数据在&lt;div&gt;prpcopynametemp中是否存在&lt;/div&gt;" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
+          <mxGeometry x="670" y="2010" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GyTgs1EJwbVY7Si8vsgn-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GyTgs1EJwbVY7Si8vsgn-75" target="GyTgs1EJwbVY7Si8vsgn-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GyTgs1EJwbVY7Si8vsgn-75" value="prpppnameTemp的数据转成prpcopyNameTemp并打上I标识" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="2310" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GyTgs1EJwbVY7Si8vsgn-77" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="916" y="2290" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GyTgs1EJwbVY7Si8vsgn-78" value="打上I标识" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="960" y="2320" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GyTgs1EJwbVY7Si8vsgn-79" value="替换，基本同修改" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="2450" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GyTgs1EJwbVY7Si8vsgn-83" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="916" y="2430" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="GyTgs1EJwbVY7Si8vsgn-84" value="打上U标识" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="960" y="2465" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
