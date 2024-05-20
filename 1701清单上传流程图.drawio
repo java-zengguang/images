@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-20T11:53:32.184Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="p5s_36Pm--9fEiKKyc16" version="24.4.4" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-05-20T11:56:32.235Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="4MDHNUTUx7RJcjK3FYKL" version="24.4.4" type="github" pages="2">
   <diagram name="第 1 页" id="zRgw-F2Loey4QgDExblL">
     <mxGraphModel dx="1434" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -118,10 +118,205 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2UbBG0a-4UL-8zHVcVVt" name="第 2 页">
-    <mxGraphModel dx="1434" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="797" dy="414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HRnftKknrHDsrKudJxnz-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-2" target="HRnftKknrHDsrKudJxnz-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-2" value="studentExcelImport" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="30" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-4" target="HRnftKknrHDsrKudJxnz-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-4" value="上传OSS生成文件PATH" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="170" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-6" target="HRnftKknrHDsrKudJxnz-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-6" value="根据险种调产品工厂获取Excel模板" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="440" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-8" target="HRnftKknrHDsrKudJxnz-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-8" value="根据险种调产品工厂获取Excel模板" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="550" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-10" target="HRnftKknrHDsrKudJxnz-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-10" value="获取保单模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="650" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-12" target="HRnftKknrHDsrKudJxnz-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-12" value="&lt;div&gt;日志handler&lt;/div&gt;统一处理日志表（Insurancebatch）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="770" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-15" target="HRnftKknrHDsrKudJxnz-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-15" target="HRnftKknrHDsrKudJxnz-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-15" value="是否有批次号" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="685" y="760" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-16" value="删除批次" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="855" y="770" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-18" target="HRnftKknrHDsrKudJxnz-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-18" value="查出批次所有数据，但只用了条数&lt;div&gt;构建（ImportFileDTO）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="900" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-20" target="HRnftKknrHDsrKudJxnz-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-20" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;写入Insurancebatch&lt;/span&gt;&lt;span style=&quot;color: rgb(169, 183, 198); background-color: rgb(43, 43, 43);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1060" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-22" target="HRnftKknrHDsrKudJxnz-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-22" value="&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;校验handler&lt;/span&gt;&lt;span style=&quot;color: rgb(169, 183, 198); background-color: rgb(43, 43, 43);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre style=&quot;font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;初始化生成清单序列号逻辑&lt;/span&gt;&lt;/pre&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1060" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-24" target="HRnftKknrHDsrKudJxnz-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-24" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;调用EsayExcel解析文件&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1200" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-26" target="HRnftKknrHDsrKudJxnz-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-26" value="BatchInsureExcelListener&lt;div&gt;产品工厂驱动模型保存&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="1320" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-28" target="HRnftKknrHDsrKudJxnz-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-28" value="前置拦截&lt;div&gt;校验、写入Insurancebatchetail&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1320" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-32" target="HRnftKknrHDsrKudJxnz-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-32" target="HRnftKknrHDsrKudJxnz-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-31" value="保存时" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="HRnftKknrHDsrKudJxnz-30">
+          <mxGeometry x="-0.2" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-32" value="后置拦截&lt;div&gt;给prpPnameTemp对象赋值，保单号、序列号、nameno、flag、条数等信息&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1460" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-33" value="ListenerInstance&lt;br&gt;开始导入逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1460" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-35" target="HRnftKknrHDsrKudJxnz-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-35" value="利用json序列化，&lt;div&gt;将cName转为prpcopyNametemp&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1610" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-38" target="HRnftKknrHDsrKudJxnz-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-38" target="HRnftKknrHDsrKudJxnz-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-38" value="是否全量上传" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="435" y="310" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-40" target="HRnftKknrHDsrKudJxnz-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-40" value="删除临时表CPtemp、copytemp" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="685" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-41" value="这条导入错误" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1745" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-43" target="HRnftKknrHDsrKudJxnz-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-43" value="prpppnameTemp的数据转成prpcopyNameTemp并打上U标识" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="1880" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-44" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="916" y="1780" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-45" value="打上U标识" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="965" y="1825" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-46" value="这条导入错误" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="2025" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-47" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="910" y="2060" width="20" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-48" value="打上D标识" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="930" y="2128" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-50" target="HRnftKknrHDsrKudJxnz-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-50" value="prpppnameTemp的数据转成prpcopyNameTemp并打上D标识" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="2170" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-53" target="HRnftKknrHDsrKudJxnz-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-53" target="HRnftKknrHDsrKudJxnz-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-53" value="查询prppnametemp的数据在&lt;div&gt;prpcopynametemp中是否存在&lt;/div&gt;" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1730" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-56" target="HRnftKknrHDsrKudJxnz-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-56" target="HRnftKknrHDsrKudJxnz-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-56" value="查询prppnametemp的数据在&lt;div&gt;prpcopynametemp中是否存在&lt;/div&gt;" style="html=1;whiteSpace=wrap;aspect=fixed;shape=isoRectangle;" vertex="1" parent="1">
+          <mxGeometry x="670" y="2010" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HRnftKknrHDsrKudJxnz-58" target="HRnftKknrHDsrKudJxnz-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-58" value="prpppnameTemp的数据转成prpcopyNameTemp并打上I标识" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="2310" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-59" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="916" y="2290" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-60" value="打上I标识" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="960" y="2320" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-61" value="替换，基本同修改" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="2450" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-62" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="916" y="2430" width="20" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HRnftKknrHDsrKudJxnz-63" value="打上U标识" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="960" y="2465" width="80" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
