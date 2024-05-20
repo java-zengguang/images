@@ -1,29 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2024-05-20T04:06:12.023Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Ksnx2tGtoGYtgtaPEGXq" version="24.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-20T05:37:59.481Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="LgJxFG_csRbpdXn0UnGf" version="24.4.2" type="github">
   <diagram name="第 1 页" id="zRgw-F2Loey4QgDExblL">
-    <mxGraphModel dx="1434" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1912" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DkeXdmltZZ25ZQ4XzEC7-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DkeXdmltZZ25ZQ4XzEC7-2" target="DkeXdmltZZ25ZQ4XzEC7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DkeXdmltZZ25ZQ4XzEC7-2" value="studentExcelImport" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="180" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkeXdmltZZ25ZQ4XzEC7-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DkeXdmltZZ25ZQ4XzEC7-3" target="DkeXdmltZZ25ZQ4XzEC7-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DkeXdmltZZ25ZQ4XzEC7-3" value="上传OSS生成文件PATH" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="320" width="190" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="DkeXdmltZZ25ZQ4XzEC7-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DkeXdmltZZ25ZQ4XzEC7-4" target="DkeXdmltZZ25ZQ4XzEC7-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DkeXdmltZZ25ZQ4XzEC7-4" value="根据险种调产品工厂获取Excel模板" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="440" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkeXdmltZZ25ZQ4XzEC7-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DkeXdmltZZ25ZQ4XzEC7-5" target="DkeXdmltZZ25ZQ4XzEC7-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DkeXdmltZZ25ZQ4XzEC7-5" value="根据险种调产品工厂获取Excel模板" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="550" width="190" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="DkeXdmltZZ25ZQ4XzEC7-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DkeXdmltZZ25ZQ4XzEC7-6" target="DkeXdmltZZ25ZQ4XzEC7-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="DkeXdmltZZ25ZQ4XzEC7-6" value="获取保单模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="650" width="190" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="DkeXdmltZZ25ZQ4XzEC7-7" value="oss" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="240" width="120" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="DkeXdmltZZ25ZQ4XzEC7-8" value="产品工厂" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="480" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DkeXdmltZZ25ZQ4XzEC7-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DkeXdmltZZ25ZQ4XzEC7-9" target="DkeXdmltZZ25ZQ4XzEC7-10">
           <mxGeometry relative="1" as="geometry" />
@@ -85,8 +94,17 @@
         <mxCell id="DkeXdmltZZ25ZQ4XzEC7-30" value="后置拦截&lt;div&gt;给prpTnameTemp对象赋值，保单号、序列号、nameno、flag、条数等信息&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="1460" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="DkeXdmltZZ25ZQ4XzEC7-32" value="&lt;div&gt;&lt;span style=&quot;background-color: rgb(43, 43, 43); color: rgb(169, 183, 198); font-family: &amp;quot;JetBrains Mono&amp;quot;, monospace; font-size: 9.8pt;&quot;&gt;ListenerInstance&lt;/span&gt;&lt;/div&gt;&lt;div&gt;开始导入逻辑&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="DkeXdmltZZ25ZQ4XzEC7-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DkeXdmltZZ25ZQ4XzEC7-32" target="DkeXdmltZZ25ZQ4XzEC7-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DkeXdmltZZ25ZQ4XzEC7-32" value="ListenerInstance&lt;br&gt;开始导入逻辑" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="1600" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkeXdmltZZ25ZQ4XzEC7-34" value="利用json序列化，&lt;div&gt;将prptNametemp转为prpTName&lt;/div&gt;&lt;div&gt;更新临时表标识&lt;/div&gt;&lt;div&gt;回写日志表&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1600" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkeXdmltZZ25ZQ4XzEC7-36" value="如果是全量导入Tname表先删后插" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1500" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
