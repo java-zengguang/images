@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-20T09:14:51.764Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="lksVuE2wHHk-XvE0L6hQ" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-20T11:53:32.184Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="p5s_36Pm--9fEiKKyc16" version="24.4.4" type="github" pages="2">
   <diagram name="第 1 页" id="zRgw-F2Loey4QgDExblL">
     <mxGraphModel dx="1434" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -111,9 +111,17 @@
         <mxCell id="DkeXdmltZZ25ZQ4XzEC7-36" value="如果是全量导入Tname表先删后插" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" parent="1" vertex="1">
           <mxGeometry x="1010" y="1500" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6qK8k_kRiDFO2IkSSo8y-6" value="规则脚本和Insurancebatchetail轨迹写入顺序不确定" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="820" y="1240" width="300" height="80" as="geometry" />
+        <mxCell id="6qK8k_kRiDFO2IkSSo8y-6" value="规则脚本和Insurancebatchetail轨迹写入顺序不好确定" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="685" y="1230" width="300" height="80" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="2UbBG0a-4UL-8zHVcVVt" name="第 2 页">
+    <mxGraphModel dx="1434" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
