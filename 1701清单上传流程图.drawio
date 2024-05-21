@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-21T10:42:53.236Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="W-NMcwLk5FggruofL5Ip" version="24.4.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-21T10:48:33.587Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="pI88FM1yc5QZYtrlMpOQ" version="24.4.4" type="github" pages="3">
   <diagram name="第 1 页" id="zRgw-F2Loey4QgDExblL">
     <mxGraphModel dx="1912" dy="1121" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -161,6 +161,9 @@
         </mxCell>
         <mxCell id="ShcAZ3dd9ckpgVyQhmNN-20" value="500ms" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1300" y="1758" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qQYpr8gQqAPOmVT6FaT7-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;优化方案：&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;1、prptnametemp表作为页面回显的临时表，将状态轨迹表合并到&lt;/font&gt;&lt;span style=&quot;font-size: 20px; background-color: initial;&quot;&gt;prptnametemp表中&lt;/span&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1520" width="390" height="150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -429,7 +432,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="VibUqn7xaki4Y0ZlAWaM" name="第 3 页">
-    <mxGraphModel dx="1434" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
