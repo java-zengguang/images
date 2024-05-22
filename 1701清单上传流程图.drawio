@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-22T07:54:12.267Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="sfZ2FOyYhmcaaoTyNXs_" version="24.4.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-22T07:55:54.878Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="RbHq7HE7LUrTj7GmX5-v" version="24.4.4" type="github" pages="3">
   <diagram name="第 1 页" id="zRgw-F2Loey4QgDExblL">
     <mxGraphModel dx="1434" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -438,8 +438,8 @@
         <mxCell id="ZuY9X52G1nZvV-8JLsNl-27" value="12ms" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1135" y="2465" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="dkfd3IiNgVEJ0kDh_tVg-1" value="这里跟投保有区别，投保是在Esayexcel监听中开多线程调用模型保存，批改是esayexcel解析完成返回对象，在主方法中调用模型保存。&lt;div&gt;1、投保可能出现清单重复校验不住的问题&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;" vertex="1" parent="1">
-          <mxGeometry x="585" y="1140" width="530" height="100" as="geometry" />
+        <mxCell id="dkfd3IiNgVEJ0kDh_tVg-1" value="这里跟投保有区别，投保是在Esayexcel监听中开多线程调用模型保存，批改是esayexcel解析完成返回对象，在主方法中调用模型保存。&lt;div&gt;1、投保可能出现清单重复校验不住的问题&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;position2=0.37;" vertex="1" parent="1">
+          <mxGeometry x="557.5" y="1130" width="335" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
