@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-24T06:00:01.369Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="02hSIZmlDm6rxWu5CcrY" version="24.4.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-24T06:04:46.725Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="vaWQxFpaS7Qw3-heX7P4" version="24.4.7" type="github" pages="3">
   <diagram name="第 1 页" id="zRgw-F2Loey4QgDExblL">
     <mxGraphModel dx="2625" dy="1563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -392,8 +392,8 @@
         <mxCell id="ZuY9X52G1nZvV-8JLsNl-18" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;保存&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="1445" y="1605" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dkfd3IiNgVEJ0kDh_tVg-1" value="这里跟投保有区别，投保是在Esayexcel监听中开多线程调用模型保存，批改是esayexcel解析完成返回对象，在主方法中调用模型保存。&lt;div&gt;1、投保可能出现清单重复校验不住的问题&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;position2=0.37;" parent="1" vertex="1">
-          <mxGeometry x="557.5" y="1130" width="335" height="100" as="geometry" />
+        <mxCell id="dkfd3IiNgVEJ0kDh_tVg-1" value="调保单服务查询prpcName表原始清单，将“证件号”、“证件类型”、“姓名”拼接成一个字符串，写入HashSet集合。将excel中的数据也按这种方式拼接，add到HashSet集合。根据返回true或者false判断新增的数据在原始清单中是否存在。" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;position2=0.37;" parent="1" vertex="1">
+          <mxGeometry x="790" y="1220" width="335" height="100" as="geometry" />
         </mxCell>
         <mxCell id="hXgLma1rhp1CUAm1MBb0-2" value="使用SQL在数据库中查询出prppcopynametemp表没有，但prppnametemp表有的数据，表示需要操作的人在原来的清单中不存在，不可以删除/修改，回写到轨迹表" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;base=10;align=left;" vertex="1" parent="1">
           <mxGeometry x="290" y="1700" width="360" height="90" as="geometry" />
