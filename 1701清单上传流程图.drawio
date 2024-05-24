@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-24T04:19:17.416Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="I96bs2QjWsj-Plj8-GRl" version="24.4.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-24T04:23:39.503Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="i2oSmy8sb5lI4-eLlIlH" version="24.4.6" type="github" pages="3">
   <diagram name="第 1 页" id="zRgw-F2Loey4QgDExblL">
-    <mxGraphModel dx="1434" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
+    <mxGraphModel dx="1313" dy="781" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -84,7 +84,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ppowlrsykXwUkdc8EtFU-2" value="线程池执行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="DkeXdmltZZ25ZQ4XzEC7-29">
+        <mxCell id="ppowlrsykXwUkdc8EtFU-2" value="线程池执行" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="DkeXdmltZZ25ZQ4XzEC7-29" vertex="1" connectable="0">
           <mxGeometry x="-0.06" y="-2" relative="1" as="geometry">
             <mxPoint x="-1" y="-2" as="offset" />
           </mxGeometry>
@@ -98,7 +98,7 @@
         <mxCell id="DkeXdmltZZ25ZQ4XzEC7-28" value="前置拦截&lt;div&gt;校验、写入Insurancebatchetail&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="1320" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="DkeXdmltZZ25ZQ4XzEC7-30" target="ShcAZ3dd9ckpgVyQhmNN-14">
+        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="DkeXdmltZZ25ZQ4XzEC7-30" target="ShcAZ3dd9ckpgVyQhmNN-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DkeXdmltZZ25ZQ4XzEC7-30" value="后置拦截&lt;div&gt;给prpTnameTemp对象赋值，保单号、序列号、nameno、flag、条数等信息&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -124,55 +124,55 @@
         <mxCell id="6qK8k_kRiDFO2IkSSo8y-6" value="1、规则脚本和Insurancebatchetail轨迹写入顺序不好确定&lt;span style=&quot;background-color: initial;&quot;&gt;2、会加载系统中全部的拦截器，清单使用的也会加载&lt;/span&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;" parent="1" vertex="1">
           <mxGeometry x="670" y="1218" width="315" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="qLJXCZcCus9LE---L-Ve-1" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="qLJXCZcCus9LE---L-Ve-1" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1270" y="220" width="20" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="qLJXCZcCus9LE---L-Ve-2" value="761ms" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1340" y="268" width="60" height="30" as="geometry" />
+        <mxCell id="qLJXCZcCus9LE---L-Ve-2" value="上传OSS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1335" y="268" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-3" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1280" y="390" width="20" height="710" as="geometry" />
         </mxCell>
-        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-5" value="131ms" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="728" width="60" height="30" as="geometry" />
+        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-5" value="产品工厂excel清单上传模型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1295" y="730" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-6" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1280" y="1150" width="20" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-8" value="1879ms" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1295" y="1188" width="70" height="30" as="geometry" />
+        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-8" value="Easyexcel解析" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="1180" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-9" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1280" y="1280" width="20" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-10" value="273ms" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="1318" width="60" height="30" as="geometry" />
+        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-10" value="前置拦截" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1325" y="1310" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-11" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-11" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1280" y="1420" width="20" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-12" value="105ms" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="1458" width="60" height="30" as="geometry" />
+        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-12" value="后置拦截" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1325" y="1450" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ShcAZ3dd9ckpgVyQhmNN-14" target="DkeXdmltZZ25ZQ4XzEC7-32">
+        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ShcAZ3dd9ckpgVyQhmNN-14" target="DkeXdmltZZ25ZQ4XzEC7-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-14" value="保存temp表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-14" value="保存temp表" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="1600" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-17" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-17" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1280" y="1570" width="20" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-18" value="150ms" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="1608" width="60" height="30" as="geometry" />
+        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-18" value="保存prptnametemp" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="1600" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-19" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-19" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="1280" y="1720" width="20" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-20" value="500ms" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1300" y="1758" width="60" height="30" as="geometry" />
+        <mxCell id="ShcAZ3dd9ckpgVyQhmNN-20" value="保存监听" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="1330" y="1750" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ppowlrsykXwUkdc8EtFU-1" value="1、这里使用的线程池处理，当前核心线程数 3&lt;div&gt;2、驱动写死的400条一个任务，超过20个任务会做等待&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;position2=0.7;" vertex="1" parent="1">
+        <mxCell id="ppowlrsykXwUkdc8EtFU-1" value="1、这里使用的线程池处理，当前核心线程数 3&lt;div&gt;2、驱动写死的400条一个任务，超过20个任务会做等待&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;position2=0.7;" parent="1" vertex="1">
           <mxGeometry x="50" y="1250" width="295" height="100" as="geometry" />
         </mxCell>
       </root>
