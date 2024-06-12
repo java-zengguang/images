@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T07:02:56.973Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="I9dmPGhkpg3pAv6DMksM" version="24.5.2" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2024-06-12T07:03:20.639Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="x3sXMwDHDNXJ-EJZv9Vh" version="24.5.2" type="github" pages="2">
   <diagram name="事件总线" id="g_HDyUwrOJ3oTxygOwaM">
     <mxGraphModel dx="2501" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -207,7 +207,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Gj9DYttaPEFQyABNT1nj-2" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;事件总线&lt;/h1&gt;&lt;p&gt;一个事件流上的所有服务都监听这条总线。这条事件流上的所有事件都在这条总线上传递。不同的事件流用不同的总线隔离开。&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="40" width="180" height="120" as="geometry" />
+          <mxGeometry x="-160" y="30" width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Gj9DYttaPEFQyABNT1nj-3" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;事件状态机&lt;/h1&gt;&lt;p&gt;在事件处理的各个阶段调用状态流转规则，实现工作流状态的流转。&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="390" y="30" width="180" height="102" as="geometry" />
