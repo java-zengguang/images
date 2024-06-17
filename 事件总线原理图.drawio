@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-17T06:58:33.540Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="yP7kkGyw-BFcor0chqfF" version="24.5.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-06-17T07:05:23.190Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="HI5HVOBfsk_bILoi2jox" version="24.5.4" type="github" pages="4">
   <diagram name="事件总线" id="g_HDyUwrOJ3oTxygOwaM">
     <mxGraphModel dx="2501" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -392,6 +392,12 @@
         </mxCell>
         <mxCell id="smV6fs7Xjss8rG7ymzLg-13" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;对应&lt;/span&gt;" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.67;dx=40.43;notch=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="454" y="557.5" width="120" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="smV6fs7Xjss8rG7ymzLg-14" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;过程状态&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="520" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="smV6fs7Xjss8rG7ymzLg-19" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;流转规则&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="57.5" y="945" width="85" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
