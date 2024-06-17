@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-17T03:02:09.515Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="QVoH8CUJKi5VKsyvmP4h" version="24.5.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-06-17T03:02:58.972Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Yq9P7W58KXwmLfhgwaJi" version="24.5.4" type="github" pages="4">
   <diagram name="事件总线" id="g_HDyUwrOJ3oTxygOwaM">
     <mxGraphModel dx="2501" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -456,10 +456,11 @@
         <mxCell id="gR6-E2mslCHh2vk4NGVG-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="gR6-E2mslCHh2vk4NGVG-32" target="gR6-E2mslCHh2vk4NGVG-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gR6-E2mslCHh2vk4NGVG-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="gR6-E2mslCHh2vk4NGVG-32" target="gR6-E2mslCHh2vk4NGVG-34">
+        <mxCell id="gR6-E2mslCHh2vk4NGVG-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" target="gR6-E2mslCHh2vk4NGVG-34">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="720" y="410" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="730" y="510" />
+              <mxPoint x="720" y="510" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -477,10 +478,10 @@
         <mxCell id="gR6-E2mslCHh2vk4NGVG-34" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;核保通过&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
           <mxGeometry x="520" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gR6-E2mslCHh2vk4NGVG-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="gR6-E2mslCHh2vk4NGVG-35" target="gR6-E2mslCHh2vk4NGVG-4">
+        <mxCell id="gR6-E2mslCHh2vk4NGVG-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="gR6-E2mslCHh2vk4NGVG-35" target="gR6-E2mslCHh2vk4NGVG-4">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="710" y="145" />
+              <mxPoint x="710" y="160" />
             </Array>
           </mxGeometry>
         </mxCell>
