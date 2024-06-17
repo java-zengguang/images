@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-17T08:04:32.287Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="ymk50yseyhmDFUcdno2d" version="24.5.4" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-06-17T08:05:54.932Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="JCAXLp4-FjJy9FKqV7ER" version="24.5.4" type="github" pages="4">
   <diagram name="事件总线" id="g_HDyUwrOJ3oTxygOwaM">
     <mxGraphModel dx="2501" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -583,7 +583,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RtcK7jQtoZr0vMvM33OE-1" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="255" y="1327.5" width="1085" height="332.5" as="geometry" />
+          <mxGeometry x="198.36" y="1340" width="1000" height="332.5" as="geometry" />
         </mxCell>
         <mxCell id="RtcK7jQtoZr0vMvM33OE-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;用户&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry y="1480" width="30" height="60" as="geometry" />
@@ -600,52 +600,52 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RtcK7jQtoZr0vMvM33OE-8" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;事件流状态&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="570" y="1380" width="120" height="30" as="geometry" />
+          <mxGeometry x="438.36" y="1392.5" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RtcK7jQtoZr0vMvM33OE-9" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;当前业务状态&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="755" y="1380" width="150" height="30" as="geometry" />
+          <mxGeometry x="623.36" y="1392.5" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RtcK7jQtoZr0vMvM33OE-10" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;异常信息&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="1380" width="150" height="30" as="geometry" />
+          <mxGeometry x="1028.36" y="1392.5" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RtcK7jQtoZr0vMvM33OE-12" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;处理中&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="570" y="1460" width="120" height="30" as="geometry" />
+          <mxGeometry x="438.36" y="1472.5" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RtcK7jQtoZr0vMvM33OE-13" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;自动审核&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="780" y="1460" width="120" height="30" as="geometry" />
+          <mxGeometry x="648.36" y="1472.5" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RtcK7jQtoZr0vMvM33OE-16" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;业务号&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="350" y="1380" width="120" height="30" as="geometry" />
+          <mxGeometry x="218.36" y="1392.5" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RtcK7jQtoZr0vMvM33OE-17" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;投保单1&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="353" y="1460" width="120" height="30" as="geometry" />
+          <mxGeometry x="221.36" y="1472.5" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RtcK7jQtoZr0vMvM33OE-26" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;投保单2&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="353" y="1540" width="120" height="30" as="geometry" />
+          <mxGeometry x="221.36" y="1552.5" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RtcK7jQtoZr0vMvM33OE-27" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;正常终止&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="570" y="1540" width="120" height="30" as="geometry" />
+          <mxGeometry x="438.36" y="1552.5" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RtcK7jQtoZr0vMvM33OE-28" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;非见费转保单&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="770" y="1540" width="150" height="30" as="geometry" />
+          <mxGeometry x="638.36" y="1552.5" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RtcK7jQtoZr0vMvM33OE-31" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;处理结果&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="960" y="1380" width="150" height="30" as="geometry" />
+          <mxGeometry x="828.36" y="1392.5" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RtcK7jQtoZr0vMvM33OE-32" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;保单号2&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="975" y="1540" width="150" height="30" as="geometry" />
+          <mxGeometry x="843.36" y="1552.5" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RtcK7jQtoZr0vMvM33OE-35" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;投保单3&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="353" y="1610" width="120" height="30" as="geometry" />
+          <mxGeometry x="221.36" y="1622.5" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RtcK7jQtoZr0vMvM33OE-36" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;异常终止&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="570" y="1610" width="120" height="30" as="geometry" />
+          <mxGeometry x="438.36" y="1622.5" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RtcK7jQtoZr0vMvM33OE-37" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;提交审核&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="785" y="1610" width="120" height="30" as="geometry" />
+          <mxGeometry x="653.36" y="1622.5" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RtcK7jQtoZr0vMvM33OE-38" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;该单已提交核保&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="1154.5" y="1610" width="161" height="30" as="geometry" />
+          <mxGeometry x="1022.86" y="1622.5" width="161" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
