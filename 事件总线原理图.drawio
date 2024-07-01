@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T08:28:25.293Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="QSOmbsq6VtipoPl7fDhm" version="24.6.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-07-01T08:29:23.040Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="_JTIbnlpkbXBdCxCYqyu" version="24.6.4" type="github" pages="5">
   <diagram name="事件总线" id="g_HDyUwrOJ3oTxygOwaM">
     <mxGraphModel dx="2501" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -655,85 +655,85 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WEBbF4BxsBARKZF_RlOd-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="WEBbF4BxsBARKZF_RlOd-1" target="WEBbF4BxsBARKZF_RlOd-12">
+        <mxCell id="WEBbF4BxsBARKZF_RlOd-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="WEBbF4BxsBARKZF_RlOd-1" target="WEBbF4BxsBARKZF_RlOd-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WEBbF4BxsBARKZF_RlOd-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;事件监听器&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WEBbF4BxsBARKZF_RlOd-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;事件监听器&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="284" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WEBbF4BxsBARKZF_RlOd-2" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="WEBbF4BxsBARKZF_RlOd-2" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="174" y="400" as="sourcePoint" />
             <mxPoint x="274" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WEBbF4BxsBARKZF_RlOd-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;事件&lt;/font&gt;" style="shape=message;html=1;html=1;outlineConnect=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="WEBbF4BxsBARKZF_RlOd-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;事件&lt;/font&gt;" style="shape=message;html=1;html=1;outlineConnect=0;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="194" y="320" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WEBbF4BxsBARKZF_RlOd-6" value="&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;事件消息报文&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;上下文变量池（Map）&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;" vertex="1" parent="1">
+        <mxCell id="WEBbF4BxsBARKZF_RlOd-6" value="&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;事件消息报文&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;上下文变量池（Map）&lt;/b&gt;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="104" y="210" width="260" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WEBbF4BxsBARKZF_RlOd-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="WEBbF4BxsBARKZF_RlOd-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="464" y="395" width="16" height="335" as="geometry" />
         </mxCell>
-        <mxCell id="WEBbF4BxsBARKZF_RlOd-9" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;事件子组件A&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WEBbF4BxsBARKZF_RlOd-9" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;事件子组件A&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="514" y="390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WEBbF4BxsBARKZF_RlOd-10" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;事件子组件B&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WEBbF4BxsBARKZF_RlOd-10" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;事件子组件B&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="514" y="495" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WEBbF4BxsBARKZF_RlOd-11" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;事件子组件C&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WEBbF4BxsBARKZF_RlOd-11" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;事件子组件C&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="514" y="595" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WEBbF4BxsBARKZF_RlOd-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="WEBbF4BxsBARKZF_RlOd-12" target="WEBbF4BxsBARKZF_RlOd-29">
+        <mxCell id="WEBbF4BxsBARKZF_RlOd-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="WEBbF4BxsBARKZF_RlOd-12" target="WEBbF4BxsBARKZF_RlOd-29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WEBbF4BxsBARKZF_RlOd-12" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;组件定义&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WEBbF4BxsBARKZF_RlOd-12" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;组件定义&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="284" y="532.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WEBbF4BxsBARKZF_RlOd-13" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+        <mxCell id="WEBbF4BxsBARKZF_RlOd-13" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#F2CC8F;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="564" y="675" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WEBbF4BxsBARKZF_RlOd-14" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+        <mxCell id="WEBbF4BxsBARKZF_RlOd-14" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#F2CC8F;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="564" y="700" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WEBbF4BxsBARKZF_RlOd-15" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+        <mxCell id="WEBbF4BxsBARKZF_RlOd-15" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#F2CC8F;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="564" y="720" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WEBbF4BxsBARKZF_RlOd-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WEBbF4BxsBARKZF_RlOd-12" target="WEBbF4BxsBARKZF_RlOd-7">
+        <mxCell id="WEBbF4BxsBARKZF_RlOd-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1" source="WEBbF4BxsBARKZF_RlOd-12" target="WEBbF4BxsBARKZF_RlOd-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WEBbF4BxsBARKZF_RlOd-23" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+        <mxCell id="WEBbF4BxsBARKZF_RlOd-23" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="664" y="395" width="10" height="335" as="geometry" />
         </mxCell>
-        <mxCell id="WEBbF4BxsBARKZF_RlOd-27" value="&lt;ol style=&quot;font-size: 20px;&quot;&gt;&lt;li&gt;事件实体在ThreadLocal里获取&lt;/li&gt;&lt;li&gt;逻辑操作的原始数据来自事件的报文和上下文变量池&lt;/li&gt;&lt;li&gt;组件的操作结果通过上下文变量池传递&lt;/li&gt;&lt;/ol&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;" vertex="1" parent="1">
+        <mxCell id="WEBbF4BxsBARKZF_RlOd-27" value="&lt;ol style=&quot;font-size: 20px;&quot;&gt;&lt;li&gt;&lt;b&gt;事件实体在ThreadLocal里获取&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;逻辑操作的原始数据来自事件的报文和上下文变量池&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;组件的操作结果通过上下文变量池传递&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;align=left;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="464" y="210" width="330" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="WEBbF4BxsBARKZF_RlOd-28" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;事件总线&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WEBbF4BxsBARKZF_RlOd-28" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;事件总线&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="34" y="300" width="120" height="540" as="geometry" />
         </mxCell>
-        <mxCell id="WEBbF4BxsBARKZF_RlOd-29" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;事件完成&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="WEBbF4BxsBARKZF_RlOd-29" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;事件完成&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="284" y="660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WEBbF4BxsBARKZF_RlOd-32" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+        <mxCell id="WEBbF4BxsBARKZF_RlOd-32" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#F2CC8F;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="334" y="760" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WEBbF4BxsBARKZF_RlOd-33" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+        <mxCell id="WEBbF4BxsBARKZF_RlOd-33" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#F2CC8F;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="334" y="790" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WEBbF4BxsBARKZF_RlOd-34" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" vertex="1" parent="1">
+        <mxCell id="WEBbF4BxsBARKZF_RlOd-34" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=#F2CC8F;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="334" y="820" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WEBbF4BxsBARKZF_RlOd-35" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="WEBbF4BxsBARKZF_RlOd-35" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=default;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="314" y="799.5" as="sourcePoint" />
             <mxPoint x="174" y="799.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WEBbF4BxsBARKZF_RlOd-37" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;事件流转&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="WEBbF4BxsBARKZF_RlOd-37" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;事件流转&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="204" y="815" width="90" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WEBbF4BxsBARKZF_RlOd-38" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;根据状态机进行状态和事件节点的流转&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="WEBbF4BxsBARKZF_RlOd-38" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;根据状态机进行状态和事件节点的流转&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#F2CC8F;strokeColor=#E07A5F;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="358" y="790" width="206" height="50" as="geometry" />
         </mxCell>
       </root>
