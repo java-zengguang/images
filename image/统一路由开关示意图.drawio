@@ -1,11 +1,27 @@
-<mxfile host="app.diagrams.net" modified="2024-08-06T02:59:53.819Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="lTeGvLeN6LWBU1H6WdxO" version="24.7.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-08-06T03:37:59.399Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0" etag="lGpQTbXbtAZAlT2FMfBB" version="24.7.3" type="github">
   <diagram name="第 1 页" id="tZbdZ-ZDqYEMzEUsVfKP">
-    <mxGraphModel dx="1368" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2195" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QO0jwUj8NBlgtjvNCejm-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#813d9c;fontColor=#393C56;fillColor=#F2CC8F;dashed=1;strokeWidth=5;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="165" as="sourcePoint" />
+            <mxPoint x="205" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="150" />
+              <mxPoint x="150" y="150" />
+              <mxPoint x="150" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QO0jwUj8NBlgtjvNCejm-33" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;现状&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="QO0jwUj8NBlgtjvNCejm-32">
+          <mxGeometry x="-0.2" y="3" relative="1" as="geometry">
+            <mxPoint x="-3" y="83" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="QO0jwUj8NBlgtjvNCejm-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
-          <mxGeometry x="150" y="110" width="30" height="60" as="geometry" />
+          <mxGeometry x="140" y="40" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QO0jwUj8NBlgtjvNCejm-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="QO0jwUj8NBlgtjvNCejm-2" target="QO0jwUj8NBlgtjvNCejm-8">
           <mxGeometry relative="1" as="geometry" />
@@ -13,10 +29,15 @@
         <mxCell id="QO0jwUj8NBlgtjvNCejm-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;流量网关&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="320" y="110" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QO0jwUj8NBlgtjvNCejm-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1">
+        <mxCell id="QO0jwUj8NBlgtjvNCejm-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;exitX=0.75;exitY=0.1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="140" as="sourcePoint" />
-            <mxPoint x="280" y="140" as="targetPoint" />
+            <mxPoint x="180" y="75.5" as="sourcePoint" />
+            <mxPoint x="312.5" y="104.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QO0jwUj8NBlgtjvNCejm-40" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;页面请求&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#E07A5F;fontColor=#393C56;fillColor=#F2CC8F;" vertex="1" connectable="0" parent="QO0jwUj8NBlgtjvNCejm-3">
+          <mxGeometry x="-0.316" y="4" relative="1" as="geometry">
+            <mxPoint x="9" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="QO0jwUj8NBlgtjvNCejm-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=default;" edge="1" parent="1" source="QO0jwUj8NBlgtjvNCejm-4" target="QO0jwUj8NBlgtjvNCejm-23">
@@ -90,6 +111,12 @@
         </mxCell>
         <mxCell id="QO0jwUj8NBlgtjvNCejm-27" value="承保前端流量网关" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="320" y="610" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QO0jwUj8NBlgtjvNCejm-34" value="&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot; color=&quot;#ffffff&quot;&gt;路由写死的1193流量切换无用&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;strokeColor=#813d9c;fontColor=#393C56;fillColor=#813d9c;position2=0.81;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="140" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QO0jwUj8NBlgtjvNCejm-35" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;流量网关&lt;/h1&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;统一工作台、承保前端均复用的一个openresty集群。通过lua脚本获取redis中的开关决定流量路由。1093为流量入口原来就有，只是路由规则写死到了A区1193&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="430" width="230" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
