@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0" version="24.7.10">
   <diagram name="第 1 页" id="eLbkbvb1n6lZxor_aUeG">
-    <mxGraphModel dx="1770" dy="1714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="943" dy="1714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -170,7 +170,7 @@
           <mxGeometry x="130" y="540" width="210" height="90" as="geometry" />
         </mxCell>
         <mxCell id="zzFww52JxvObhSJPxeZc-56" value="4、B区网关出现连续Fullgc、内存溢出，自动重启，开始紧急扩容，A、B区网关扩容完成后服务恢复稳定" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="474" y="545" width="287" height="80" as="geometry" />
+          <mxGeometry x="466.5" y="560" width="287" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
