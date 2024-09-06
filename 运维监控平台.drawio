@@ -251,13 +251,13 @@
           <mxGeometry x="70" y="340" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5-ArXRMiUn5XWJKNcHc_-15" value="在线异常检测" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="10" y="50" width="670" height="450" as="geometry" />
+          <mxGeometry x="10" y="30" width="670" height="550" as="geometry" />
         </mxCell>
         <mxCell id="5-ArXRMiUn5XWJKNcHc_-26" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;基于霍夫丁树机器学习算法实现异常漂移检测&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="5-ArXRMiUn5XWJKNcHc_-15">
-          <mxGeometry x="120" y="390" width="410" height="30" as="geometry" />
+          <mxGeometry x="110" y="490" width="410" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5-ArXRMiUn5XWJKNcHc_-16" value="离线监督学习" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
-          <mxGeometry x="10" y="560" width="670" height="550" as="geometry" />
+          <mxGeometry x="730" y="30" width="670" height="550" as="geometry" />
         </mxCell>
         <mxCell id="5-ArXRMiUn5XWJKNcHc_-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="5-ArXRMiUn5XWJKNcHc_-16" source="5-ArXRMiUn5XWJKNcHc_-17" target="5-ArXRMiUn5XWJKNcHc_-18">
           <mxGeometry relative="1" as="geometry" />
