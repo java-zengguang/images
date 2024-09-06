@@ -148,13 +148,13 @@
         <mxCell id="4OkGHbeQtj2HpZDMA-2N-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4OkGHbeQtj2HpZDMA-2N-47" target="4OkGHbeQtj2HpZDMA-2N-46">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4OkGHbeQtj2HpZDMA-2N-47" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;流量切换&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4OkGHbeQtj2HpZDMA-2N-47" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;承保流量切换&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-449" y="350" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4OkGHbeQtj2HpZDMA-2N-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4OkGHbeQtj2HpZDMA-2N-48" target="4OkGHbeQtj2HpZDMA-2N-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="4OkGHbeQtj2HpZDMA-2N-48" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;入口&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4OkGHbeQtj2HpZDMA-2N-48" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;统一工作台&lt;font style=&quot;font-size: 20px;&quot;&gt;入口&lt;br&gt;&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-450" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="4OkGHbeQtj2HpZDMA-2N-53" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -199,7 +199,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4OkGHbeQtj2HpZDMA-2N-63" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;入口2&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+        <mxCell id="4OkGHbeQtj2HpZDMA-2N-63" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;统一工作台&lt;font style=&quot;font-size: 20px;&quot;&gt;入口（2）&lt;/font&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="-700" y="190" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
