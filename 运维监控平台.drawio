@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0" version="24.7.12" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0" version="24.7.12" pages="3">
   <diagram name="第 1 页" id="_1_5rNjSqZu_5mU9mCM2">
     <mxGraphModel dx="4694" dy="1756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -288,6 +288,47 @@
         </mxCell>
         <mxCell id="5-ArXRMiUn5XWJKNcHc_-27" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;基于人工神经网络机器学习算法实现不健康指标识别&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontColor=#143642;" vertex="1" parent="5-ArXRMiUn5XWJKNcHc_-16">
           <mxGeometry x="100" y="490" width="470" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NfdHchZV7y0ubfdXzs1O" name="第 3 页">
+    <mxGraphModel dx="1368" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I5vDsI7NhCTPVJsy7nev-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="I5vDsI7NhCTPVJsy7nev-4" target="I5vDsI7NhCTPVJsy7nev-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I5vDsI7NhCTPVJsy7nev-4" value="指标打分" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="214" y="100" width="286" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="I5vDsI7NhCTPVJsy7nev-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;指标阈值和权重&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="I5vDsI7NhCTPVJsy7nev-4">
+          <mxGeometry x="90" y="100" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I5vDsI7NhCTPVJsy7nev-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;指标项目&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="I5vDsI7NhCTPVJsy7nev-4">
+          <mxGeometry x="100" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I5vDsI7NhCTPVJsy7nev-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;指标采集&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="30" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I5vDsI7NhCTPVJsy7nev-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.015;entryY=0.533;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="I5vDsI7NhCTPVJsy7nev-5" target="I5vDsI7NhCTPVJsy7nev-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I5vDsI7NhCTPVJsy7nev-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="I5vDsI7NhCTPVJsy7nev-7" target="I5vDsI7NhCTPVJsy7nev-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I5vDsI7NhCTPVJsy7nev-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="I5vDsI7NhCTPVJsy7nev-7" target="I5vDsI7NhCTPVJsy7nev-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I5vDsI7NhCTPVJsy7nev-7" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;分数存储&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="570" y="165" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I5vDsI7NhCTPVJsy7nev-9" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;页面展示&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="700" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I5vDsI7NhCTPVJsy7nev-10" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;离线分析&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" parent="1">
+          <mxGeometry x="707" y="250" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
