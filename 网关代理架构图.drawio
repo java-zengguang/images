@@ -500,11 +500,14 @@
         <mxCell id="zSG3_E5ic31AEnfOvB0t-3" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;鉴权服务&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="220" y="460" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="zSG3_E5ic31AEnfOvB0t-4" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;微服务管理平台&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+        <mxCell id="zSG3_E5ic31AEnfOvB0t-4" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;微服务管理平台后端&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="390" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zSG3_E5ic31AEnfOvB0t-12" value="工作台微服务集群" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="30" y="100" width="560" height="530" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2WFJDm2PWeUYaEGUepn-1" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;微服务管理平台前端&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="zSG3_E5ic31AEnfOvB0t-12">
+          <mxGeometry x="60" y="80" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="zSG3_E5ic31AEnfOvB0t-14" value="页面集成" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="680" y="100" width="200" height="260" as="geometry" />
@@ -526,6 +529,14 @@
         </mxCell>
         <mxCell id="zSG3_E5ic31AEnfOvB0t-28" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;页面嵌入&lt;/font&gt;" style="shape=singleArrow;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="500" y="150" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2WFJDm2PWeUYaEGUepn-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="1" source="Z2WFJDm2PWeUYaEGUepn-1" target="6iQ7yQ5bZqeraSUysA50-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Z2WFJDm2PWeUYaEGUepn-3" value="HTTP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];strokeColor=#0F8B8D;fontColor=#143642;fillColor=#FAE5C7;" vertex="1" connectable="0" parent="Z2WFJDm2PWeUYaEGUepn-2">
+          <mxGeometry x="-0.2829" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
