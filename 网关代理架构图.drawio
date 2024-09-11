@@ -596,6 +596,9 @@
         <mxCell id="ToHgxDu4G2AroYGvbJNF-14" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;微服务管理平台后端&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" parent="ToHgxDu4G2AroYGvbJNF-15" vertex="1">
           <mxGeometry x="560" y="380" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="orOi_QKvJ8lzSbrTOAQf-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="ToHgxDu4G2AroYGvbJNF-15" source="q-SHXzokB-Vh817GTJUb-0" target="orOi_QKvJ8lzSbrTOAQf-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="q-SHXzokB-Vh817GTJUb-0" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;承保后端&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="ToHgxDu4G2AroYGvbJNF-15" vertex="1">
           <mxGeometry x="730" y="380" width="120" height="60" as="geometry" />
         </mxCell>
@@ -623,6 +626,9 @@
         </mxCell>
         <mxCell id="orOi_QKvJ8lzSbrTOAQf-0" value="统一工作台库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="ToHgxDu4G2AroYGvbJNF-15">
           <mxGeometry x="430" y="530" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="orOi_QKvJ8lzSbrTOAQf-28" value="承保库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="ToHgxDu4G2AroYGvbJNF-15">
+          <mxGeometry x="760" y="520" width="60" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
