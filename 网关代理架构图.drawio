@@ -6,8 +6,8 @@
         <mxCell id="1" parent="0" />
         <mxCell id="zzFww52JxvObhSJPxeZc-1" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="10" y="240" as="sourcePoint" />
-            <mxPoint x="810" y="240" as="targetPoint" />
+            <mxPoint y="240" as="sourcePoint" />
+            <mxPoint x="830" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zzFww52JxvObhSJPxeZc-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;Nginx&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -115,7 +115,7 @@
         <mxCell id="zzFww52JxvObhSJPxeZc-40" value="" style="endArrow=none;dashed=1;html=1;strokeWidth=2;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint y="340" as="sourcePoint" />
-            <mxPoint x="800" y="340" as="targetPoint" />
+            <mxPoint x="830" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="zzFww52JxvObhSJPxeZc-41" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;容器POD&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -181,7 +181,7 @@
         <mxCell id="-9IgAf5YJr9mfcpTOxvQ-9" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="5" y="-70" as="sourcePoint" />
-            <mxPoint x="805" y="-70" as="targetPoint" />
+            <mxPoint x="830" y="-70" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-9IgAf5YJr9mfcpTOxvQ-10" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;颜色标识&lt;br&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
