@@ -536,7 +536,7 @@
         <mxCell id="ToHgxDu4G2AroYGvbJNF-0" />
         <mxCell id="ToHgxDu4G2AroYGvbJNF-1" parent="ToHgxDu4G2AroYGvbJNF-0" />
         <mxCell id="ToHgxDu4G2AroYGvbJNF-15" value="非车新一代微服务集群" style="swimlane;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="ToHgxDu4G2AroYGvbJNF-1">
-          <mxGeometry x="140" y="110" width="830" height="560" as="geometry" />
+          <mxGeometry x="220" y="120" width="920" height="560" as="geometry" />
         </mxCell>
         <mxCell id="q-SHXzokB-Vh817GTJUb-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#A8201A;fontColor=#143642;fillColor=#FAE5C7;" edge="1" parent="ToHgxDu4G2AroYGvbJNF-15" source="ToHgxDu4G2AroYGvbJNF-17" target="ToHgxDu4G2AroYGvbJNF-10">
           <mxGeometry relative="1" as="geometry" />
@@ -599,7 +599,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ToHgxDu4G2AroYGvbJNF-22" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;页面嵌入&lt;/font&gt;" style="shape=singleArrow;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="ToHgxDu4G2AroYGvbJNF-15">
-          <mxGeometry x="420" y="50" width="160" height="80" as="geometry" />
+          <mxGeometry x="460" y="50" width="160" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
