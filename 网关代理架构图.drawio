@@ -154,8 +154,8 @@
         <mxCell id="_Mv-QMsfPdluF9xNzbTH-35" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;业务入口&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="30" y="40" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_Mv-QMsfPdluF9xNzbTH-36" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;负载openreaty&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="30" y="160" width="110" height="30" as="geometry" />
+        <mxCell id="_Mv-QMsfPdluF9xNzbTH-36" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;openresty&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="25" y="160" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_Mv-QMsfPdluF9xNzbTH-37" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;前端Nginx&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="30" y="285" width="110" height="30" as="geometry" />
@@ -227,7 +227,7 @@
           <mxGeometry x="130" y="150" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HVEhvTl7xMBJdvBm893_-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;理赔抄单负载&lt;/font&gt;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1250" y="160" width="130" height="30" as="geometry" />
+          <mxGeometry x="1250" y="150" width="130" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OUB2QWzZqLYNGuEK_C9J-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HVEhvTl7xMBJdvBm893_-2" target="zzFww52JxvObhSJPxeZc-30">
           <mxGeometry relative="1" as="geometry" />
