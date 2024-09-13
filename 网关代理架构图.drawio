@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.13" pages="6">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="24.7.13" pages="7">
   <diagram name="第 1 页" id="eLbkbvb1n6lZxor_aUeG">
     <mxGraphModel dx="2876" dy="2209" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -427,7 +427,7 @@
         <mxCell id="mbaG56La910pGmleXx1E-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;工作台后端&lt;/font&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="sayHJ7OFwnno_7317D0G-0" vertex="1">
           <mxGeometry x="26" y="35" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="mbaG56La910pGmleXx1E-0" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;鉴权SDB&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="sayHJ7OFwnno_7317D0G-0" vertex="1">
+        <mxCell id="mbaG56La910pGmleXx1E-0" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;鉴权SDK&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="sayHJ7OFwnno_7317D0G-0" vertex="1">
           <mxGeometry x="33.75" y="85" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sayHJ7OFwnno_7317D0G-2" value="承保服务A" style="swimlane;whiteSpace=wrap;html=1;" parent="zqpwVvG3D1p32dAbVSsH-1" vertex="1">
@@ -442,7 +442,7 @@
         <mxCell id="mbaG56La910pGmleXx1E-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;打印服务&lt;/font&gt;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="sayHJ7OFwnno_7317D0G-2" vertex="1">
           <mxGeometry x="35" y="150" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eA1V_q7GSD2l-TR5HCgo-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;鉴权SDB&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="sayHJ7OFwnno_7317D0G-2" vertex="1">
+        <mxCell id="eA1V_q7GSD2l-TR5HCgo-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;鉴权SDK&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="sayHJ7OFwnno_7317D0G-2" vertex="1">
           <mxGeometry x="35" y="200" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sayHJ7OFwnno_7317D0G-6" value="承保服务B" style="swimlane;whiteSpace=wrap;html=1;" parent="zqpwVvG3D1p32dAbVSsH-1" vertex="1">
@@ -457,7 +457,7 @@
         <mxCell id="sayHJ7OFwnno_7317D0G-9" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;打印服务&lt;/font&gt;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="sayHJ7OFwnno_7317D0G-6" vertex="1">
           <mxGeometry x="35" y="140" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eA1V_q7GSD2l-TR5HCgo-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;鉴权SDB&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="sayHJ7OFwnno_7317D0G-6" vertex="1">
+        <mxCell id="eA1V_q7GSD2l-TR5HCgo-2" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;鉴权SDK&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="sayHJ7OFwnno_7317D0G-6" vertex="1">
           <mxGeometry x="35" y="190" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sayHJ7OFwnno_7317D0G-10" value="承保服务D" style="swimlane;whiteSpace=wrap;html=1;" parent="zqpwVvG3D1p32dAbVSsH-1" vertex="1">
@@ -472,7 +472,7 @@
         <mxCell id="sayHJ7OFwnno_7317D0G-13" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;打印服务&lt;/font&gt;" style="text;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="sayHJ7OFwnno_7317D0G-10" vertex="1">
           <mxGeometry x="35" y="140" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eA1V_q7GSD2l-TR5HCgo-3" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;鉴权SDB&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="sayHJ7OFwnno_7317D0G-10" vertex="1">
+        <mxCell id="eA1V_q7GSD2l-TR5HCgo-3" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;鉴权SDK&lt;br&gt;&lt;/font&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="sayHJ7OFwnno_7317D0G-10" vertex="1">
           <mxGeometry x="35" y="190" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="sayHJ7OFwnno_7317D0G-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.449;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" parent="zqpwVvG3D1p32dAbVSsH-1" source="EPb-S06rSrjNzR7FO8n2-0" target="sayHJ7OFwnno_7317D0G-2" edge="1">
@@ -980,6 +980,14 @@
         <mxCell id="orOi_QKvJ8lzSbrTOAQf-28" value="承保库" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="ToHgxDu4G2AroYGvbJNF-15">
           <mxGeometry x="760" y="520" width="60" height="80" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fQ6k5rgtYa5l8sAeLmXL" name="第 7 页">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
