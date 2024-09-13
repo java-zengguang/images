@@ -55,70 +55,70 @@
         <mxCell id="rip66BA0ASYzhw-7HGAd-46" value="&lt;h1&gt;流量恢复&lt;/h1&gt;&lt;h1&gt;&lt;p&gt;&lt;br style=&quot;font-size: 13px; font-weight: 400;&quot;&gt;&lt;/p&gt;&lt;/h1&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;strokeColor=none;strokeWidth=3;fillColor=#E6E6E6;fontSize=13;fontColor=#000000;align=center;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="-390" y="700" width="195" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="rip66BA0ASYzhw-7HGAd-60" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;测试组发出可以生产发结论，并在发版群里发接龙&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rip66BA0ASYzhw-7HGAd-60" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;测试组发出可以生产发结论，并在发版群里发接龙&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-80" y="117.5" width="230" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="rip66BA0ASYzhw-7HGAd-63" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;开发组长提交升级脚本、配置Apollo&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rip66BA0ASYzhw-7HGAd-63" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;开发组长提交升级脚本、配置Apollo&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-80" y="227.5" width="230" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="rip66BA0ASYzhw-7HGAd-64" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;由版本管理员通过jekens打包构建生产镜像&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rip66BA0ASYzhw-7HGAd-64" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;由版本管理员通过jekens打包构建生产镜像&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-80" y="342.5" width="230" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="rip66BA0ASYzhw-7HGAd-67" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;版本管理员，将流量切离待升级环境&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rip66BA0ASYzhw-7HGAd-67" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;版本管理员，将流量切离待升级环境&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-80" y="447.5" width="230" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="rip66BA0ASYzhw-7HGAd-69" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;版本管理员操作rancher修改镜像版本实现服务升级&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rip66BA0ASYzhw-7HGAd-69" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;版本管理员操作rancher修改镜像版本实现服务升级&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-80" y="567.5" width="230" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="rip66BA0ASYzhw-7HGAd-71" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;升级完成后，恢复流量分布&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rip66BA0ASYzhw-7HGAd-71" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;升级完成后，恢复流量分布&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-80" y="677.5" width="230" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="rip66BA0ASYzhw-7HGAd-73" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;使用集团容器发版工具，具备流程审批能力&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rip66BA0ASYzhw-7HGAd-73" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;使用集团容器发版工具，具备流程审批能力&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="520" y="570" width="230" height="95" as="geometry" />
         </mxCell>
         <mxCell id="rip66BA0ASYzhw-7HGAd-76" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;步骤&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="-352.5" y="20" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rip66BA0ASYzhw-7HGAd-77" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;现状&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="rip66BA0ASYzhw-7HGAd-77" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;现状&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-20" y="20" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rip66BA0ASYzhw-7HGAd-78" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;不足&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="rip66BA0ASYzhw-7HGAd-78" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;不足&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="290" y="20" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rip66BA0ASYzhw-7HGAd-79" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;规划&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="rip66BA0ASYzhw-7HGAd-79" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;规划&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="575" y="20" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="rip66BA0ASYzhw-7HGAd-83" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;无&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rip66BA0ASYzhw-7HGAd-83" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;无&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="230" y="120" width="230" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="rip66BA0ASYzhw-7HGAd-84" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;无&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rip66BA0ASYzhw-7HGAd-84" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;无&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="230" y="230" width="230" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="rip66BA0ASYzhw-7HGAd-85" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;需要手动清理生产harbor镜像，存在风险&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rip66BA0ASYzhw-7HGAd-85" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;需要手动清理生产harbor镜像，存在风险&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="230" y="345" width="230" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="rip66BA0ASYzhw-7HGAd-86" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;无&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rip66BA0ASYzhw-7HGAd-86" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;无&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="230" y="450" width="230" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="rip66BA0ASYzhw-7HGAd-87" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;没有审批流程&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rip66BA0ASYzhw-7HGAd-87" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;没有审批流程&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="230" y="570" width="230" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="rip66BA0ASYzhw-7HGAd-88" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;无&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rip66BA0ASYzhw-7HGAd-88" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;无&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="230" y="680" width="230" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="rip66BA0ASYzhw-7HGAd-89" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;无&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rip66BA0ASYzhw-7HGAd-89" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;无&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="520" y="120" width="230" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="rip66BA0ASYzhw-7HGAd-90" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;无&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rip66BA0ASYzhw-7HGAd-90" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;无&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="520" y="230" width="230" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="rip66BA0ASYzhw-7HGAd-91" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;给集团提需求，实现无用镜像自动清理&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rip66BA0ASYzhw-7HGAd-91" value="&lt;span style=&quot;font-size: 20px;&quot;&gt;给集团提需求，实现无用镜像自动清理&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="520" y="345" width="230" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="rip66BA0ASYzhw-7HGAd-92" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;无&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rip66BA0ASYzhw-7HGAd-92" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;无&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="520" y="450" width="230" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="rip66BA0ASYzhw-7HGAd-94" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;无&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="rip66BA0ASYzhw-7HGAd-94" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;无&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="520" y="680" width="230" height="95" as="geometry" />
         </mxCell>
       </root>
