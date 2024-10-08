@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:130.0) Gecko/20100101 Firefox/130.0" version="24.7.17">
+  <diagram name="第 1 页" id="-5ZDSn6iOt7gDkgcBdYf">
+    <mxGraphModel dx="1368" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bsJ_sNEBP9lTQ6pW_iyW-12" value="" style="shape=link;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="80" y="370" as="sourcePoint" />
+            <mxPoint x="750" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsJ_sNEBP9lTQ6pW_iyW-14" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;内网&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="630" y="400" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bsJ_sNEBP9lTQ6pW_iyW-15" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;内网防火墙&lt;/font&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/security/firewall.svg;" parent="1" vertex="1">
+          <mxGeometry x="190" y="340" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bsJ_sNEBP9lTQ6pW_iyW-33" value="" style="endArrow=none;dashed=1;html=1;rounded=0;strokeWidth=2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="700" as="sourcePoint" />
+            <mxPoint x="780" y="700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="40" y="700" />
+              <mxPoint x="40" y="900" />
+              <mxPoint x="780" y="900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsJ_sNEBP9lTQ6pW_iyW-34" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;通州信创容器资源池&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="bsJ_sNEBP9lTQ6pW_iyW-33" vertex="1" connectable="0">
+          <mxGeometry x="-0.5936" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9YROANMSj2MLfyZYSRep-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bsJ_sNEBP9lTQ6pW_iyW-35" target="bsJ_sNEBP9lTQ6pW_iyW-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YROANMSj2MLfyZYSRep-10" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;路由&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9YROANMSj2MLfyZYSRep-8">
+          <mxGeometry x="-0.2" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsJ_sNEBP9lTQ6pW_iyW-35" value="通州后端集群" style="shape=mxgraph.ibm.box;prType=cloud;fontStyle=0;verticalAlign=top;align=left;spacingLeft=32;spacingTop=4;fillColor=none;rounded=0;whiteSpace=wrap;html=1;strokeColor=#4376BB;strokeWidth=3;dashed=0;container=1;spacing=-4;collapsible=0;expand=0;recursiveResize=0;" parent="1" vertex="1">
+          <mxGeometry x="311" y="740" width="185" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bsJ_sNEBP9lTQ6pW_iyW-36" value="gateway网关服务" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/applications/saas_applications.svg;" parent="bsJ_sNEBP9lTQ6pW_iyW-35" vertex="1">
+          <mxGeometry x="45" y="30" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bsJ_sNEBP9lTQ6pW_iyW-41" value="通州后端集群" style="shape=mxgraph.ibm.box;prType=cloud;fontStyle=0;verticalAlign=top;align=left;spacingLeft=32;spacingTop=4;fillColor=none;rounded=0;whiteSpace=wrap;html=1;strokeColor=#4376BB;strokeWidth=3;dashed=0;container=1;spacing=-4;collapsible=0;expand=0;recursiveResize=0;" parent="1" vertex="1">
+          <mxGeometry x="572.5" y="740" width="185" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bsJ_sNEBP9lTQ6pW_iyW-42" value="后端服务" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/applications/saas_applications.svg;" parent="bsJ_sNEBP9lTQ6pW_iyW-41" vertex="1">
+          <mxGeometry x="45" y="30" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bsJ_sNEBP9lTQ6pW_iyW-47" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;办公网&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="630" y="300" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="bsJ_sNEBP9lTQ6pW_iyW-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="bsJ_sNEBP9lTQ6pW_iyW-48" target="9YROANMSj2MLfyZYSRep-12" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="166.6" y="140" as="sourcePoint" />
+            <mxPoint x="120.01640786499874" y="493.1671842700025" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bsJ_sNEBP9lTQ6pW_iyW-48" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;业务员&lt;/font&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/applications/api_developer_portal.svg;" parent="1" vertex="1">
+          <mxGeometry x="100" y="190" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9YROANMSj2MLfyZYSRep-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9YROANMSj2MLfyZYSRep-1" target="bsJ_sNEBP9lTQ6pW_iyW-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YROANMSj2MLfyZYSRep-9" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;代理&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9YROANMSj2MLfyZYSRep-7">
+          <mxGeometry x="-0.2" y="-5" relative="1" as="geometry">
+            <mxPoint y="-5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9YROANMSj2MLfyZYSRep-1" value="通州前端集群" style="shape=mxgraph.ibm.box;prType=cloud;fontStyle=0;verticalAlign=top;align=left;spacingLeft=32;spacingTop=4;fillColor=none;rounded=0;whiteSpace=wrap;html=1;strokeColor=#4376BB;strokeWidth=3;dashed=0;container=1;spacing=-4;collapsible=0;expand=0;recursiveResize=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="740" width="185" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9YROANMSj2MLfyZYSRep-2" value="前端服务" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/applications/saas_applications.svg;" vertex="1" parent="9YROANMSj2MLfyZYSRep-1">
+          <mxGeometry x="45" y="30" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9YROANMSj2MLfyZYSRep-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9YROANMSj2MLfyZYSRep-5" target="9YROANMSj2MLfyZYSRep-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YROANMSj2MLfyZYSRep-16" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;前端入口&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9YROANMSj2MLfyZYSRep-6">
+          <mxGeometry x="0.3378" y="-3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9YROANMSj2MLfyZYSRep-5" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;容器负载&lt;br&gt;&lt;/font&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/infrastructure/load_balancing_routing.svg;" vertex="1" parent="1">
+          <mxGeometry x="354" y="550" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9YROANMSj2MLfyZYSRep-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9YROANMSj2MLfyZYSRep-12" target="9YROANMSj2MLfyZYSRep-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9YROANMSj2MLfyZYSRep-15" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;系统集成&lt;br&gt;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9YROANMSj2MLfyZYSRep-14">
+          <mxGeometry x="0.2599" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9YROANMSj2MLfyZYSRep-12" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;统一工作台&lt;br&gt;&lt;/font&gt;" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=#4277BB;labelBackgroundColor=default;fontSize=12;spacingTop=3;image=img/lib/ibm/infrastructure/dashboard.svg;" vertex="1" parent="1">
+          <mxGeometry x="100" y="460" width="60" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
