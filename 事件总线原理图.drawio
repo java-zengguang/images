@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-10T05:35:25.472Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="j3c28PpiZuUAYOhnEHLb" version="24.6.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0" version="24.7.17" pages="6">
   <diagram name="事件总线" id="g_HDyUwrOJ3oTxygOwaM">
     <mxGraphModel dx="2501" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -779,6 +779,80 @@
         </mxCell>
         <mxCell id="kKcv7bQ6NDKufbTYfftq-34" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp; &amp;nbsp;优势&lt;/h1&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 20px; text-wrap: nowrap; background-color: initial;&quot;&gt;各组件独立利于功能扩展&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 20px; text-wrap: nowrap;&quot;&gt;组件功能单一更易维护&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 20px; text-wrap: nowrap;&quot;&gt;更易于功能复用&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fontColor=#393C56;" parent="1" vertex="1">
           <mxGeometry x="630" y="770" width="280" height="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="QzkjQRquvo5S3JGHQ4d3" name="事件报文结构示意图">
+    <mxGraphModel dx="1770" dy="545" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Re0FWwfmnL5DSbiJI51Z-3" value="事件ID" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;top=0;bottom=0;fillColor=none;routingCenterX=-0.5;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="80" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Re0FWwfmnL5DSbiJI51Z-4" value="&lt;div&gt;事件类型&lt;/div&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;top=0;bottom=0;fillColor=none;routingCenterX=-0.5;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="200" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Re0FWwfmnL5DSbiJI51Z-5" value="业务号" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;top=0;bottom=0;fillColor=none;routingCenterX=-0.5;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="80" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Re0FWwfmnL5DSbiJI51Z-6" value="&lt;div&gt;事件状态&lt;/div&gt;&lt;div&gt;（初始化、排队、执行中、成功、失败、重试）&lt;br&gt;&lt;/div&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;top=0;bottom=0;fillColor=none;routingCenterX=-0.5;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="320" y="210" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Re0FWwfmnL5DSbiJI51Z-9" value="&lt;div&gt;业务报文&lt;/div&gt;（业务原始报文）" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;top=0;bottom=0;fillColor=none;routingCenterX=-0.5;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="200" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Re0FWwfmnL5DSbiJI51Z-10" value="&lt;div&gt;业务阶段&lt;/div&gt;（幂等控制）" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;top=0;bottom=0;fillColor=none;routingCenterX=-0.5;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Re0FWwfmnL5DSbiJI51Z-11" value="&lt;div&gt;业务状态&lt;/div&gt;&lt;div&gt;（状态流转）&lt;/div&gt;" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;top=0;bottom=0;fillColor=none;routingCenterX=-0.5;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="440" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Re0FWwfmnL5DSbiJI51Z-12" value="&lt;div&gt;上下文变量池&lt;/div&gt;（事件间信息传递，值传递，不是指针）" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;top=0;bottom=0;fillColor=none;routingCenterX=-0.5;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="80" y="350" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Re0FWwfmnL5DSbiJI51Z-13" value="链路信息" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;top=0;bottom=0;fillColor=none;routingCenterX=-0.5;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="320" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Re0FWwfmnL5DSbiJI51Z-14" value="错误信息" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;top=0;bottom=0;fillColor=none;routingCenterX=-0.5;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="440" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Re0FWwfmnL5DSbiJI51Z-18" value="" style="line;strokeWidth=2;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="80" y="270" width="480" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Re0FWwfmnL5DSbiJI51Z-20" value="" style="line;strokeWidth=2;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="480" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Re0FWwfmnL5DSbiJI51Z-21" value="" style="line;strokeWidth=2;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="80" y="340" width="480" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Re0FWwfmnL5DSbiJI51Z-22" value="" style="line;strokeWidth=2;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="80" y="410" width="480" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="Re0FWwfmnL5DSbiJI51Z-23" value="" style="line;strokeWidth=2;direction=south;html=1;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="560" y="205" width="10" height="210" as="geometry" />
+        </mxCell>
+        <UserObject label="事件信息" placeholders="1" name="Variable" id="Re0FWwfmnL5DSbiJI51Z-27">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=20;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+            <mxGeometry x="-55" y="225" width="100" height="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="业务信息" placeholders="1" name="Variable" id="Re0FWwfmnL5DSbiJI51Z-29">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=20;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+            <mxGeometry x="-50" y="290" width="90" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="上下文" placeholders="1" name="Variable" id="Re0FWwfmnL5DSbiJI51Z-30">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=20;labelBackgroundColor=none;fontColor=#393C56;" vertex="1" parent="1">
+            <mxGeometry x="-45" y="360" width="80" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="Re0FWwfmnL5DSbiJI51Z-32" value="事件报文结构" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="80" y="140" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Re0FWwfmnL5DSbiJI51Z-33" value="状态流转" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;fontColor=#393C56;" vertex="1" parent="1">
+          <mxGeometry x="80" y="480" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
