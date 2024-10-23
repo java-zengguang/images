@@ -935,7 +935,7 @@
         <mxCell id="f4X-k3VMw3EjTf-Dw7Xa-1" value="HOT异常检测模型" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="120" y="180" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="f4X-k3VMw3EjTf-Dw7Xa-2" value="监控状况预测模型" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
+        <mxCell id="f4X-k3VMw3EjTf-Dw7Xa-2" value="状况预测模型" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#FAE5C7;strokeColor=#0F8B8D;fontColor=#143642;" vertex="1" parent="1">
           <mxGeometry x="290" y="180" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="f4X-k3VMw3EjTf-Dw7Xa-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;labelBackgroundColor=none;strokeColor=#A8201A;fontColor=default;" edge="1" parent="1">
